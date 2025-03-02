@@ -1,3 +1,11 @@
+# 1. Install required Python dependencies by running:
+#    pip install numpy networkx
+
+# 2. Run the Python script:
+#    python bayesian.py
+
+#    This will check d-separation for given variables, perform exact inference, and approximate inference using Gibbs sampling.
+
 import numpy as np
 import networkx as nx
 import itertools
